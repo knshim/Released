@@ -1,7 +1,8 @@
-SilentCamera
+My appliacations
 ====
 
-This is simple silent camera!
+Silent Camera
+Demo2048
 
 ## Description
 
