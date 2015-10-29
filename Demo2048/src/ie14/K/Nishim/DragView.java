@@ -26,7 +26,7 @@ public class DragView extends View{
 	float nowTouchedY = 0;
 
 	// フリックの遊び部分（最低限移動しないといけない距離）
-	float adjust = 120;
+	float adjust = 150;
 
 	// コンストラクタ
 	public DragView(Context context) {

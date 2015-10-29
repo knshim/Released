@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Config1"
+        activity="ie14.K.Nishim.Main2048"
+        config="layout-ldltr-sw600dp-w600dp-h960dp-large-long-port-notnight-xhdpi-finger-keyshidden-qwerty-navhidden-nonav-1920x1200-v22"
+        device="MeMO Pad 7"
+        devicestate="Portrait"
+        target="Android 5.1.1"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>
