@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HogeQuest</string>
+    <string name="new_button">はじめから</string>
+    <string name="load_button">つづきから</string>
+    <string name="hogehoge">ほげほげ</string>
+    <string name="input_name">名前を入力(10文字以内)</string>
+    <string name="enter_button">けってい</string>
+    <string name="back_button">もどる</string>
+
+</resources>
