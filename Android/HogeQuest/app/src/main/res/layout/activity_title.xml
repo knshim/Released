@@ -10,14 +10,6 @@
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_gravity="center"
-        android:src="@drawable/title_logo"
-        android:contentDescription="@string/app_name" />
-
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,28 +19,36 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal|bottom"
-        android:gravity="bottom" >
+        android:gravity="center">
 
-        <Button
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/new_button"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            android:src="@drawable/title_logo"
+            android:contentDescription="@string/app_name" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/newButton"
-            android:layout_gravity="center"
             android:background="@null"
-            android:textSize="30sp"
+            android:contentDescription="@string/new_button"
+            android:onClick="onClick"
+            android:src="@drawable/new_button"
+            android:layout_margin="10sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loadButton"
+            android:background="@null"
+            android:contentDescription="@string/load_button"
+            android:src="@drawable/load_button"
+            android:layout_margin="10sp"
             android:onClick="onClick" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/load_button"
-            android:id="@+id/loadButton"
-            android:layout_gravity="center"
-            android:background="@null"
-            android:textSize="30sp"
-            android:onClick="onClick" />
     </LinearLayout>
 
 </FrameLayout>

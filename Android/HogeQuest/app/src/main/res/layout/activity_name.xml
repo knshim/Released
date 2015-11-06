@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@drawable/name_back"
     android:gravity="center">
 
     <FrameLayout
@@ -26,7 +26,8 @@
             android:textSize="30sp"
             android:gravity="center"
             android:singleLine="true"
-            android:text="@string/input_name" />
+            android:text="@string/input_name"
+            android:layout_margin="10sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -37,42 +38,43 @@
             android:layout_gravity="center_horizontal"
             android:textSize="40sp"
             android:textColor="#000000"
-            android:autoText="false"
             android:editable="true"
             android:enabled="true"
             android:lines="1"
             android:maxLength="10"
             android:text="@string/hogehoge"
             android:textAlignment="center"
-            android:background="@drawable/kadomaru" />
+            android:background="@drawable/kadomaru"
+            android:layout_margin="10sp" />
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal">
+            android:gravity="center">
 
-            <Button
-                android:layout_width="match_parent"
+            <ImageButton
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/enter_button"
                 android:id="@+id/enterButton"
-                android:onClick="onClick"
-                android:textColor="#ffffff"
-                android:textSize="30sp"
                 android:background="@null"
-                android:layout_gravity="center_horizontal" />
+                android:contentDescription="@string/enter_button"
+                android:onClick="onClick"
+                android:src="@drawable/enter_button"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10sp" />
 
-            <Button
-                android:layout_width="match_parent"
+            <ImageButton
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/back_button"
                 android:id="@+id/titleButton"
                 android:background="@null"
-                android:textSize="30sp"
-                android:textColor="#ffffff"
+                android:contentDescription="@string/back_button"
                 android:onClick="onClick"
-                android:layout_gravity="center_horizontal" />
+                android:src="@drawable/title_button"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10sp" />
+
         </LinearLayout>
     </LinearLayout>
 
