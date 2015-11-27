@@ -10,6 +10,7 @@ HogeQuest
 ## Demo
 ![Build Status](https://raw.githubusercontent.com/knshim/Released/master/Android/SilentCamera/app/src/main/res/mipmap-hdpi/ic_launcher.png)
 ![Build Status](https://raw.githubusercontent.com/knshim/Released/master/Android/Demo2048/res/drawable-hdpi/ic_launcher.png)
+![Build Status](https://raw.githubusercontent.com/knshim/Released/master/Android/HogeQuest/app/src/main/res/mipmap-hdpi/ic_launcher.png)
 ## VS. 
 
 ## Requirement
